@@ -4,5 +4,5 @@ def fibonacci(current, last, limit):
     if current <= limit:
         fibonacci(current, last, limit)
 
-toprint = fibonacci(1, 0, int(input("what's the limit")))
+toprint = fibonacci(1, 0, int(input("what's the limit ")))
 toprint
